@@ -271,7 +271,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const urlParams = new URLSearchParams(window.location.search);
   const projectId = urlParams.get("projectId");
 
-  fetch("assets/json/Projects.json")
+  fetch("./assets/json/projects.json")
     .then((response) => response.json())
     .then((projects) => {
       const project = projects.find((item) => item.id === parseInt(projectId));
