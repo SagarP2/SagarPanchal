@@ -1,5 +1,5 @@
 
-# SagarPanchal Portfolio
+# Sagar Panchal Portfolio
 
 Welcome to my personal portfolio! This project showcases my skills and projects as a web developer.
 
