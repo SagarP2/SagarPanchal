@@ -43,4 +43,4 @@ The project includes the following files:
 
 ## 📧 Contact
 
-Feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com) for any inquiries or collaborations.
+Feel free to reach out to me at https://sagarp2.github.io/SagarPanchal/ for any inquiries or collaborations.
