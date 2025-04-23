@@ -1803,3 +1803,19 @@ section,
 .livedemo:hover i {
   color: white;
 }
+
+.project-links-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.project-links {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;         /* Allow wrap on small screens */
+  gap: 12px;               /* Space between buttons */
+  padding: 0;
+  margin-bottom:-13px;
+  list-style: none;        /* Remove bullets */
+}
