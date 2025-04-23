@@ -1740,3 +1740,66 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+
+
+
+/* Shared button styles */
+.github-link,
+.livedemo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 18px;
+  border-radius: 26px;
+  border: 2px solid;
+  width: fit-content;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* GitHub button */
+.github-link {
+  border-color: #272829;
+}
+.github-link svg {
+  stroke: #272829;
+  transition: stroke 0.3s ease;
+}
+.github-label {
+  font-size: 16px;
+  color: #272829;
+  transition: color 0.3s ease;
+  padding-top: 1px;
+}
+.github-link:hover {
+  background-color: #272829;
+}
+.github-link:hover .github-label {
+  color: white;
+}
+.github-link:hover svg {
+  stroke: white;
+}
+
+/* Live Demo button */
+.livedemo {
+  border-color: #149ddd;
+}
+.livelable {
+  font-size: 16px;
+  color: #149ddd;
+  transition: color 0.3s ease;
+  padding-top: 1px;
+}
+.livedemo i {
+  color: #149ddd;
+  transition: color 0.3s ease;
+}
+.livedemo:hover {
+  background-color: #149ddd;
+}
+.livedemo:hover .livelable,
+.livedemo:hover i {
+  color: white;
+}

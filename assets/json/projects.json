@@ -3,7 +3,7 @@
     {
         "id": 1,
         "category": "App",
-        "liveDemo": null,
+        "liveDemo": "http://youtube.com",
         "title": "Medical System",
         "techStack": [
             "C#",
@@ -13,10 +13,10 @@
             "CSS"
         ],
         "purpose": "To efficiently manage medical records, appointments, and patient details, providing a seamless experience for doctors, patients, and administrators.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/medical-system",
         "description": "A C# .NET application designed to streamline the management of medical records, appointments, and patient information with a responsive user interface.",
         "index-image": "assets/img/portfolio/medical-system.png",
-        "detailsUrl": "portfolio-details.html?projectId=2",
+        "detailsUrl": "portfolio-details.html?projectId=1",
         "images": [
             "assets/img/portfolio/medical-system-1.jpg",
             "assets/img/portfolio/medical-system-2.jpg",
@@ -84,7 +84,7 @@
     },
     {
         "id": 2,
-        "category": "E-commerce ",
+        "category": "E-commerce",
         "liveDemo": null,
         "title": "Event Management System",
         "techStack": [
@@ -94,10 +94,10 @@
             "CSS"
         ],
         "purpose": "To streamline event planning and management by providing a user-friendly platform for event creation, registration, and attendee management.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/event-management-system",
         "description": "A PHP-based web application that facilitates event creation, user registration, and attendee management with an intuitive admin dashboard.",
         "index-image": "assets/img/portfolio/event-management-system.png",
-        "detailsUrl": "portfolio-details.html?projectId=1",
+        "detailsUrl": "portfolio-details.html?projectId=2",
         "images": [
             "assets/img/portfolio/event-management-system-1.jpg",
             "assets/img/portfolio/event-management-system-2.jpg",
@@ -153,7 +153,7 @@
     },
     {
         "id": 3,
-        "category": "Hospitality Application",
+        "category": "E-commerce",
         "liveDemo": null,
         "title": "Cafe Management System",
         "techStack": [
@@ -166,9 +166,9 @@
             "jQuery"
         ],
         "purpose": "To efficiently manage cafe operations, including orders, menu items, inventory, and billing, providing a seamless experience for staff and administrators.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/cafe-system-php",
         "description": "A fully functional Cafe Management System built with PHP and XAMPP, designed to streamline cafe operations with features like user authentication, menu management, order processing, inventory management, and sales analytics.",
-        "index-image": "assets/img/portfolio/cafe-management-system.jpg",
+        "index-image": "assets/img/portfolio/cafe-management-system.png",
         "detailsUrl": "portfolio-details.html?projectId=3",
         "images": [
             "assets/img/portfolio/cafe-management-system-1.jpg",
@@ -234,7 +234,7 @@
     },
     {
         "id": 4,
-        "category": "Document Management",
+        "category": "UI-design",
         "liveDemo": null,
         "title": "PDF Edit Tool",
         "techStack": [
@@ -245,7 +245,7 @@
             "CSS"
         ],
         "purpose": "To provide a web-based platform for users to edit PDF documents, including text modification, annotation, merging, and splitting, with a seamless user interface.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/pdf-edit-tool",
         "description": "A comprehensive web application that enables users to perform various PDF editing tasks directly in the browser, leveraging modern web technologies for an intuitive experience.",
         "index-image": "assets/img/portfolio/pdf-edit-tool.png",
         "detailsUrl": "portfolio-details.html?projectId=4",
@@ -308,7 +308,7 @@
     },
     {
         "id": 5,
-        "category": "UI - Design",
+        "category": "UI-design",
         "liveDemo": null,
         "title": "Rabbit Case",
         "techStack": [
@@ -319,7 +319,7 @@
             "MongoDB"
         ],
         "purpose": "To provide a seamless and efficient case management system that allows users to manage cases, collaborate in real-time, and track changes effectively.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/rabbit-case",
         "description": "Rabbit Case is a web application designed to enhance workflow efficiency for businesses and legal professionals by offering powerful case management features within a user-friendly interface.",
         "index-image": "assets/img/portfolio/rabbit-case.png",
         "detailsUrl": "portfolio-details.html?projectId=5",
@@ -383,7 +383,7 @@
     },
     {
         "id": 6,
-        "category": "Authentication System",
+        "category": "",
         "liveDemo": null,
         "title": "MERN Login & Registration",
         "techStack": [
@@ -395,7 +395,7 @@
             "bcrypt.js"
         ],
         "purpose": "To provide a secure and efficient user authentication system with modern security practices.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/mern-login-register",
         "description": "A full-stack authentication solution built with the MERN stack, offering user registration, login, JWT-based authentication, password hashing with bcrypt.js, protected routes, and role-based access control.",
         "index-image": "assets/img/portfolio/mern-login-register.png",
         "detailsUrl": "portfolio-details.html?projectId=6",
@@ -466,7 +466,7 @@
     },
     {
         "id": 7,
-        "category": "Company Portfolio",
+        "category": "UI-design",
         "liveDemo": null,
         "title": "RabbitCode Portfolio",
         "techStack": [
@@ -478,7 +478,7 @@
             "AWS S3"
         ],
         "purpose": "To create a professional portfolio that dynamically showcases projects, skills, and work experiences with a modern and responsive design.",
-        "role": "Full-Stack Developer",
+        "github": "https://github.com/SagarP2/rabbitcode-portfolio",
         "description": "RabbitCode Portfolio is a MERN stack-based application designed to present a developer's projects, skills, and experiences. It features dynamic project management, an interactive UI, optimized performance, and AWS S3 integration for asset management.",
         "index-image": "assets/img/portfolio/rabbitcode-portfolio.png",
         "detailsUrl": "portfolio-details.html?projectId=7",
