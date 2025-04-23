@@ -1806,7 +1806,7 @@ section,
 
 .project-links-wrapper {
   display: flex;
-  justify-content: center;
+ 
   margin: 20px 0;
 }
 
@@ -1817,5 +1817,15 @@ section,
   gap: 12px;               /* Space between buttons */
   padding: 0;
   margin-bottom:-13px;
+  margin-top:-15px;
   list-style: none;        /* Remove bullets */
 }
+
+@media (max-width: 400px) {
+  .project-links {
+    flex-direction:row  ;
+    
+    gap: 6px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }}
