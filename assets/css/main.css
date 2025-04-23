@@ -1814,18 +1814,16 @@ section,
   display: flex;
   align-items: end;
   flex-wrap: wrap;         /* Allow wrap on small screens */
-  gap: 12px;               /* Space between buttons */
+  gap: 14px;               /* Space between buttons */
   padding: 0;
-  margin-bottom:-13px;
-  margin-top:-15px;
+  margin-bottom:-11px;
+  margin-top:-11px;
   list-style: none;        /* Remove bullets */
 }
 
 @media (max-width: 400px) {
   .project-links {
     flex-direction:row  ;
-    
     gap: 6px;
-    margin-bottom: 0;
-    margin-top: 0;
+  
   }}
