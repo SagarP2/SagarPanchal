@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   target="_blank" 
                   class="livedemo"
                 >
-                  <span class="livelable">Live Demo</span>
+                  <span class="livelable">Website</span>
                   <i class="bi bi-arrow-up-right"></i>  
                 </a>
               </li>

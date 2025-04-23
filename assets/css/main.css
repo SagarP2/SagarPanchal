@@ -1750,7 +1750,7 @@ section,
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 5px 18px;
+  padding: 5px 16px;
   border-radius: 26px;
   border: 2px solid;
   width: fit-content;
@@ -1814,7 +1814,7 @@ section,
   display: flex;
   align-items: end;
   flex-wrap: wrap;         /* Allow wrap on small screens */
-  gap: 16px;               /* Space between buttons */
+  gap: 12px;               /* Space between buttons */
   padding: 0;
   margin-bottom:-13px;
   margin-top:-15px;
