@@ -1,223 +1,234 @@
 [
-    
     {
-        "id": 1,
-        "category": "App",
-        "liveDemo": null,
-        "title": "Medical System",
+        "id": 8,
+        "category": "UI-design",
+        "liveDemo": "https://rabbitcodeportfolio.vercel.app/",
+        "title": "RabbitCode Portfolio",
         "techStack": [
-            "C#",
-            ".NET",
-            "SQL Server",
-            "JavaScript",
-            "CSS"
+            "MongoDB",
+            "Express.js",
+            "React.js",
+            "Node.js",
+            "TailwindCSS",
+            "AWS S3"
         ],
-        "purpose": "To efficiently manage medical records, appointments, and patient details, providing a seamless experience for doctors, patients, and administrators.",
-        "github": "https://github.com/SagarP2/medical-system",
-        "description": "A C# .NET application designed to streamline the management of medical records, appointments, and patient information with a responsive user interface.",
-        "index-image": "assets/img/portfolio/medical-system.png",
-        "detailsUrl": "portfolio-details.html?projectId=1",
+        "purpose": "To create a professional portfolio that dynamically showcases projects, skills, and work experiences with a modern and responsive design.",
+        "github": "https://github.com/SagarP2/rabbitcode-portfolio",
+        "description": "RabbitCode Portfolio is a MERN stack-based application designed to present a developer's projects, skills, and experiences. It features dynamic project management, an interactive UI, optimized performance, and AWS S3 integration for asset management.",
+        "index-image": "assets/img/portfolio/rabbitcode-portfolio.png",
+        "detailsUrl": "portfolio-details.html?projectId=8",
         "images": [
-            "assets/img/portfolio/medical-system-1.jpg",
-            "assets/img/portfolio/medical-system-2.jpg",
-            "assets/img/portfolio/medical-system-3.jpg"
+            "assets/img/portfolio/rabbitcode-portfolio-1.jpg",
+            "assets/img/portfolio/rabbitcode-portfolio-2.jpg",
+            "assets/img/portfolio/rabbitcode-portfolio-3.jpg"
         ],
         "keyFeatures": [
             {
-                "name": "Patient Management",
-                "description": "Register, update, and view patient records."
+                "name": "Dynamic Project Showcase",
+                "description": "Add, update, and manage projects seamlessly."
             },
             {
-                "name": "Appointment Scheduling",
-                "description": "Book, reschedule, and cancel appointments."
+                "name": "Interactive UI",
+                "description": "Built with React.js and TailwindCSS for a modern, responsive design."
             },
             {
-                "name": "Doctor Management",
-                "description": "Assign doctors to patients and manage their schedules."
+                "name": "Backend with Node.js & Express.js",
+                "description": "Handles API requests efficiently."
             },
             {
-                "name": "Prescription Handling",
-                "description": "Generate and track prescriptions."
+                "name": "MongoDB Database",
+                "description": "Stores project and portfolio details securely."
             },
             {
-                "name": "Reports & Analytics",
-                "description": "View reports on patient history and medical statistics."
+                "name": "Optimized Performance",
+                "description": "Ensures fast loading and smooth navigation."
             },
             {
-                "name": "User Authentication",
-                "description": "Secure login system with role-based access."
-            },
-            {
-                "name": "Responsive UI",
-                "description": "Intuitive interface built using modern web technologies."
+                "name": "AWS S3 Integration",
+                "description": "Supports hosting and asset management."
             }
         ],
         "technicalDetails": {
             "frontend": [
-                "Developed responsive UI using HTML, CSS, and JavaScript.",
-                "Implemented dynamic content rendering for medical records and appointments."
+                "Developed using React.js for dynamic and responsive user interfaces.",
+                "Styled with TailwindCSS for a modern design."
             ],
             "backend": [
-                "Built with C# and .NET to handle server-side logic and database interactions.",
-                "Implemented secure authentication and authorization mechanisms."
+                "Built with Node.js and Express.js to handle server-side logic and API routing.",
+                "Implemented RESTful APIs for seamless communication between the frontend and backend."
             ],
-            "database": "Utilized SQL Server to store patient data, appointment details, and medical records.",
+            "database": "Utilized MongoDB to store project details, skills, and experience information.",
+            "cloudServices": [
+                "Integrated AWS S3 for hosting and managing assets."
+            ],
             "tools": [
                 "Used GitHub for version control.",
-                "Managed dependencies with NuGet."
+                "Managed dependencies with npm."
             ]
         },
         "challengesSolved": [
             {
-                "problem": "Ensuring data security and patient confidentiality.",
-                "solution": "Implemented robust authentication protocols and data encryption techniques."
+                "problem": "Ensuring dynamic content management for projects.",
+                "solution": "Implemented a backend system that allows easy addition and updating of project details stored in MongoDB."
             },
             {
-                "problem": "Managing concurrent appointment scheduling and avoiding conflicts.",
-                "solution": "Developed logic to check availability and prevent double-booking."
+                "problem": "Achieving a responsive and modern design.",
+                "solution": "Utilized React.js and TailwindCSS to create an interactive and adaptable user interface."
             }
         ],
         "learningOutcomes": [
-            "Enhanced skills in C# and .NET for web application development.",
-            "Gained experience in implementing secure authentication systems and managing sensitive data."
+            "Enhanced skills in building full-stack applications with the MERN stack.",
+            "Gained experience in integrating cloud services like AWS S3 for asset management.",
+            "Learned effective strategies for creating dynamic and responsive user interfaces."
         ]
     },
     {
-        "id": 2,
+        "id": 7,
         "category": "UI-design",
-        "liveDemo":"https://radiant-jalebi-17304c.netlify.app/",
-        "title": "Hotel Design",
+        "liveDemo": "https://rabbitcase-g3ck0nomk-priyanshupatel1253-gmailcoms-projects.vercel.app/",
+        "title": "Rabbit Case",
         "techStack": [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "Bootstrap"
+            "React.js",
+            "Redux",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
         ],
-        "purpose": "To create a visually appealing and responsive front-end design for a hotel website that enhances user experience and showcases services elegantly.",
-        "github": "https://github.com/SagarP2/Hotel-Design",
-        "description": "Hotel Design is a static front-end project that demonstrates a luxurious and modern hotel website interface. Built with HTML, CSS, JavaScript, and Bootstrap, it focuses on clean visuals, responsive layouts, and an intuitive user experience.",
-        "index-image": "assets/img/portfolio/hotel-design.png",
-        "detailsUrl": "portfolio-details.html?projectId=2",
+        "purpose": "To provide a seamless and efficient case management system that allows users to manage cases, collaborate in real-time, and track changes effectively.",
+        "github": "https://github.com/SagarP2/rabbit-case",
+        "description": "Rabbit Case is a web application designed to enhance workflow efficiency for businesses and legal professionals by offering powerful case management features within a user-friendly interface.",
+        "index-image": "assets/img/portfolio/rabbit-case.png",
+        "detailsUrl": "portfolio-details.html?projectId=7",
         "images": [
-            "assets/img/portfolio/hotel-design-1.jpg",
-            "assets/img/portfolio/hotel-design-2.jpg"
+            "assets/img/portfolio/rabbit-case-1.jpg",
+            "assets/img/portfolio/rabbit-case-2.jpg",
+            "assets/img/portfolio/rabbit-case-3.jpg"
         ],
         "keyFeatures": [
             {
+                "name": "Case Management",
+                "description": "Create, update, and monitor cases with detailed information and status tracking."
+            },
+            {
+                "name": "Real-Time Collaboration",
+                "description": "Collaborate with team members in real-time to discuss and manage case details."
+            },
+            {
+                "name": "Change Tracking",
+                "description": "Track all changes made to cases to maintain a comprehensive history."
+            },
+            {
+                "name": "User Authentication",
+                "description": "Secure login system with role-based access control."
+            },
+            {
                 "name": "Responsive Design",
-                "description": "Ensures seamless experience across all devices, including mobiles, tablets, and desktops."
-            },
-            {
-                "name": "Elegant UI/UX",
-                "description": "Focuses on clean layout, modern typography, and visually attractive components."
-            },
-            {
-                "name": "Bootstrap Framework",
-                "description": "Utilizes Bootstrap’s powerful grid system and components for faster development."
-            },
-            {
-                "name": "Smooth Navigation",
-                "description": "Provides easy navigation with clearly structured sections for services, rooms, and booking."
+                "description": "Accessible on various devices with a responsive and intuitive interface."
             }
         ],
         "technicalDetails": {
             "frontend": [
-                "Developed with semantic HTML5 for structure.",
-                "Styled using CSS3 and Bootstrap to ensure a responsive and modern design."
+                "Developed using React.js for building dynamic and responsive user interfaces.",
+                "Managed application state with Redux for predictable state management."
             ],
             "backend": [
-                "No backend integration as it is a static project.",
-                "Focus purely on UI/UX elements without dynamic data."
+                "Built with Node.js and Express.js to handle server-side logic and API routing.",
+                "Implemented RESTful APIs for seamless communication between the frontend and backend."
             ],
-            "database": "Not applicable (Static front-end project).",
+            "database": "Utilized MongoDB to store case data, user information, and collaboration logs.",
             "tools": [
-                "GitHub for version control.",
-                "VS Code for development and editing."
+                "Used GitHub for version control and project collaboration.",
+                "Managed dependencies with npm."
             ]
         },
         "challengesSolved": [
             {
-                "problem": "Achieving a balance between visual appeal and performance.",
-                "solution": "Optimized images and used lightweight CSS and JavaScript to ensure fast loading times without compromising design."
+                "problem": "Ensuring real-time collaboration without data conflicts.",
+                "solution": "Implemented WebSocket communication to enable real-time updates and conflict resolution strategies."
             },
             {
-                "problem": "Making the layout fully responsive across various devices.",
-                "solution": "Implemented Bootstrap's grid system and custom media queries for device adaptability."
+                "problem": "Maintaining a comprehensive change history for cases.",
+                "solution": "Developed a change tracking system that logs all modifications with timestamps and user information."
             }
         ],
         "learningOutcomes": [
-            "Improved skills in responsive web design and front-end UI structuring.",
-            "Gained hands-on experience in using Bootstrap and best practices for creating clean, efficient front-end projects."
+            "Enhanced skills in building full-stack applications with React.js, Node.js, and MongoDB.",
+            "Gained experience in implementing real-time features using WebSockets.",
+            "Learned effective strategies for state management using Redux."
         ]
-    }
-    ,    
+    },
     {
-        "id": 3,
-        "category": "E-commerce",
+        "id": 6,
+        "category": "UI-design",
         "liveDemo": null,
-        "title": "Event Management System",
+        "title": "PDF Edit Tool",
         "techStack": [
-            "PHP",
-            "MySQL",
+            "React.js",
+            "Node.js",
+            "PDF.js",
             "JavaScript",
             "CSS"
         ],
-        "purpose": "To streamline event planning and management by providing a user-friendly platform for event creation, registration, and attendee management.",
-        "github": "https://github.com/SagarP2/event-management-system",
-        "description": "A PHP-based web application that facilitates event creation, user registration, and attendee management with an intuitive admin dashboard.",
-        "index-image": "assets/img/portfolio/event-management-system.png",
-        "detailsUrl": "portfolio-details.html?projectId=3",
+        "purpose": "To provide a web-based platform for users to edit PDF documents, including text modification, annotation, merging, and splitting, with a seamless user interface.",
+        "github": "https://github.com/SagarP2/pdf-edit-tool",
+        "description": "A comprehensive web application that enables users to perform various PDF editing tasks directly in the browser, leveraging modern web technologies for an intuitive experience.",
+        "index-image": "assets/img/portfolio/pdf-edit-tool.png",
+        "detailsUrl": "portfolio-details.html?projectId=6",
         "images": [
-            "assets/img/portfolio/event-management-system-1.jpg",
-            "assets/img/portfolio/event-management-system-2.jpg",
-            "assets/img/portfolio/event-management-system-3.jpg"
+            "assets/img/portfolio/pdf-edit-tool-1.jpg",
+            "assets/img/portfolio/pdf-edit-tool-2.jpg",
+            "assets/img/portfolio/pdf-edit-tool-3.jpg"
         ],
         "keyFeatures": [
             {
-                "name": "User Authentication",
-                "description": "Secure login and registration system for users and administrators."
+                "name": "Text Modification",
+                "description": "Edit and update text content within PDF documents."
             },
             {
-                "name": "Event Creation",
-                "description": "Admins can create events with details like title, description, date, location, and capacity."
+                "name": "Annotations",
+                "description": "Add comments, highlights, and other annotations to PDFs."
             },
             {
-                "name": "Event Registration",
-                "description": "Users can register for events, with the system managing attendee lists and event capacity."
+                "name": "Merging PDFs",
+                "description": "Combine multiple PDF files into a single document."
             },
             {
-                "name": "Admin Dashboard",
-                "description": "Intuitive dashboard for administrators to manage events and view attendee information."
+                "name": "Splitting PDFs",
+                "description": "Divide a single PDF into multiple separate files."
+            },
+            {
+                "name": "User-Friendly Interface",
+                "description": "Intuitive UI designed for seamless user experience."
             }
         ],
         "technicalDetails": {
             "frontend": [
-                "Developed responsive UI using HTML, CSS, and JavaScript.",
-                "Implemented dynamic content rendering for event listings."
+                "Built with React.js to create dynamic and responsive user interfaces.",
+                "Utilized PDF.js for rendering and manipulating PDF documents in the browser."
             ],
             "backend": [
-                "Built with PHP to handle server-side logic and database interactions.",
-                "Implemented secure authentication and authorization mechanisms."
+                "Developed with Node.js to handle server-side operations and API requests.",
+                "Implemented RESTful APIs for efficient communication between client and server."
             ],
-            "database": "Utilized MySQL to store user data, event details, and registrations.",
+            "database": "Not specified; the application may operate without a traditional database, focusing on in-memory or file-based operations.",
             "tools": [
-                "Used GitHub for version control.",
-                "Managed dependencies with Composer."
+                "Used GitHub for version control and project collaboration."
             ]
         },
         "challengesSolved": [
             {
-                "problem": "Ensuring secure user authentication and data protection.",
-                "solution": "Implemented robust authentication protocols and data validation techniques."
+                "problem": "Rendering and editing PDFs directly in the browser.",
+                "solution": "Integrated PDF.js to enable client-side PDF manipulation and display."
             },
             {
-                "problem": "Managing event capacity and preventing overbooking.",
-                "solution": "Developed logic to track registrations and disable sign-ups once capacity is reached."
+                "problem": "Ensuring a smooth and responsive user experience during complex PDF operations.",
+                "solution": "Optimized React components and managed state effectively to maintain performance."
             }
         ],
         "learningOutcomes": [
-            "Enhanced skills in PHP and MySQL for web application development.",
-            "Gained experience in implementing secure authentication systems and managing user data."
+            "Deepened understanding of PDF rendering and manipulation using PDF.js.",
+            "Enhanced skills in building full-stack applications with React.js and Node.js.",
+            "Gained experience in creating intuitive user interfaces for document editing tools."
         ]
     },
     {
@@ -301,7 +312,6 @@
             "Learned effective strategies for inventory management and sales analytics in a retail environment."
         ]
     },
-    
     {
         "id": 4,
         "category": "",
@@ -384,240 +394,224 @@
             "Gained experience in implementing secure authentication systems.",
             "Learned effective strategies for role-based access control and protected routes."
         ]
-    },{
-        "id": 6,
-        "category": "UI-design",
+    },
+    {
+        "id": 3,
+        "category": "E-commerce",
         "liveDemo": null,
-        "title": "PDF Edit Tool",
+        "title": "Event Management System",
         "techStack": [
-            "React.js",
-            "Node.js",
-            "PDF.js",
+            "PHP",
+            "MySQL",
             "JavaScript",
             "CSS"
         ],
-        "purpose": "To provide a web-based platform for users to edit PDF documents, including text modification, annotation, merging, and splitting, with a seamless user interface.",
-        "github": "https://github.com/SagarP2/pdf-edit-tool",
-        "description": "A comprehensive web application that enables users to perform various PDF editing tasks directly in the browser, leveraging modern web technologies for an intuitive experience.",
-        "index-image": "assets/img/portfolio/pdf-edit-tool.png",
-        "detailsUrl": "portfolio-details.html?projectId=6",
+        "purpose": "To streamline event planning and management by providing a user-friendly platform for event creation, registration, and attendee management.",
+        "github": "https://github.com/SagarP2/event-management-system",
+        "description": "A PHP-based web application that facilitates event creation, user registration, and attendee management with an intuitive admin dashboard.",
+        "index-image": "assets/img/portfolio/event-management-system.png",
+        "detailsUrl": "portfolio-details.html?projectId=3",
         "images": [
-            "assets/img/portfolio/pdf-edit-tool-1.jpg",
-            "assets/img/portfolio/pdf-edit-tool-2.jpg",
-            "assets/img/portfolio/pdf-edit-tool-3.jpg"
+            "assets/img/portfolio/event-management-system-1.jpg",
+            "assets/img/portfolio/event-management-system-2.jpg",
+            "assets/img/portfolio/event-management-system-3.jpg"
         ],
         "keyFeatures": [
             {
-                "name": "Text Modification",
-                "description": "Edit and update text content within PDF documents."
+                "name": "User Authentication",
+                "description": "Secure login and registration system for users and administrators."
             },
             {
-                "name": "Annotations",
-                "description": "Add comments, highlights, and other annotations to PDFs."
+                "name": "Event Creation",
+                "description": "Admins can create events with details like title, description, date, location, and capacity."
             },
             {
-                "name": "Merging PDFs",
-                "description": "Combine multiple PDF files into a single document."
+                "name": "Event Registration",
+                "description": "Users can register for events, with the system managing attendee lists and event capacity."
             },
             {
-                "name": "Splitting PDFs",
-                "description": "Divide a single PDF into multiple separate files."
-            },
-            {
-                "name": "User-Friendly Interface",
-                "description": "Intuitive UI designed for seamless user experience."
+                "name": "Admin Dashboard",
+                "description": "Intuitive dashboard for administrators to manage events and view attendee information."
             }
         ],
         "technicalDetails": {
             "frontend": [
-                "Built with React.js to create dynamic and responsive user interfaces.",
-                "Utilized PDF.js for rendering and manipulating PDF documents in the browser."
+                "Developed responsive UI using HTML, CSS, and JavaScript.",
+                "Implemented dynamic content rendering for event listings."
             ],
             "backend": [
-                "Developed with Node.js to handle server-side operations and API requests.",
-                "Implemented RESTful APIs for efficient communication between client and server."
+                "Built with PHP to handle server-side logic and database interactions.",
+                "Implemented secure authentication and authorization mechanisms."
             ],
-            "database": "Not specified; the application may operate without a traditional database, focusing on in-memory or file-based operations.",
+            "database": "Utilized MySQL to store user data, event details, and registrations.",
             "tools": [
-                "Used GitHub for version control and project collaboration."
+                "Used GitHub for version control.",
+                "Managed dependencies with Composer."
             ]
         },
         "challengesSolved": [
             {
-                "problem": "Rendering and editing PDFs directly in the browser.",
-                "solution": "Integrated PDF.js to enable client-side PDF manipulation and display."
+                "problem": "Ensuring secure user authentication and data protection.",
+                "solution": "Implemented robust authentication protocols and data validation techniques."
             },
             {
-                "problem": "Ensuring a smooth and responsive user experience during complex PDF operations.",
-                "solution": "Optimized React components and managed state effectively to maintain performance."
+                "problem": "Managing event capacity and preventing overbooking.",
+                "solution": "Developed logic to track registrations and disable sign-ups once capacity is reached."
             }
         ],
         "learningOutcomes": [
-            "Deepened understanding of PDF rendering and manipulation using PDF.js.",
-            "Enhanced skills in building full-stack applications with React.js and Node.js.",
-            "Gained experience in creating intuitive user interfaces for document editing tools."
+            "Enhanced skills in PHP and MySQL for web application development.",
+            "Gained experience in implementing secure authentication systems and managing user data."
         ]
     },
     {
-        "id": 7,
+        "id": 2,
         "category": "UI-design",
-        "liveDemo": "https://rabbitcase-g3ck0nomk-priyanshupatel1253-gmailcoms-projects.vercel.app/",
-        "title": "Rabbit Case",
+        "liveDemo": "https://radiant-jalebi-17304c.netlify.app/",
+        "title": "Hotel Design",
         "techStack": [
-            "React.js",
-            "Redux",
-            "Node.js",
-            "Express.js",
-            "MongoDB"
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap"
         ],
-        "purpose": "To provide a seamless and efficient case management system that allows users to manage cases, collaborate in real-time, and track changes effectively.",
-        "github": "https://github.com/SagarP2/rabbit-case",
-        "description": "Rabbit Case is a web application designed to enhance workflow efficiency for businesses and legal professionals by offering powerful case management features within a user-friendly interface.",
-        "index-image": "assets/img/portfolio/rabbit-case.png",
-        "detailsUrl": "portfolio-details.html?projectId=7",
+        "purpose": "To create a visually appealing and responsive front-end design for a hotel website that enhances user experience and showcases services elegantly.",
+        "github": "https://github.com/SagarP2/Hotel-Design",
+        "description": "Hotel Design is a static front-end project that demonstrates a luxurious and modern hotel website interface. Built with HTML, CSS, JavaScript, and Bootstrap, it focuses on clean visuals, responsive layouts, and an intuitive user experience.",
+        "index-image": "assets/img/portfolio/hotel-design.png",
+        "detailsUrl": "portfolio-details.html?projectId=2",
         "images": [
-            "assets/img/portfolio/rabbit-case-1.jpg",
-            "assets/img/portfolio/rabbit-case-2.jpg",
-            "assets/img/portfolio/rabbit-case-3.jpg"
+            "assets/img/portfolio/hotel-design-1.jpg",
+            "assets/img/portfolio/hotel-design-2.jpg"
         ],
         "keyFeatures": [
             {
-                "name": "Case Management",
-                "description": "Create, update, and monitor cases with detailed information and status tracking."
+                "name": "Responsive Design",
+                "description": "Ensures seamless experience across all devices, including mobiles, tablets, and desktops."
             },
             {
-                "name": "Real-Time Collaboration",
-                "description": "Collaborate with team members in real-time to discuss and manage case details."
+                "name": "Elegant UI/UX",
+                "description": "Focuses on clean layout, modern typography, and visually attractive components."
             },
             {
-                "name": "Change Tracking",
-                "description": "Track all changes made to cases to maintain a comprehensive history."
+                "name": "Bootstrap Framework",
+                "description": "Utilizes Bootstrap’s powerful grid system and components for faster development."
+            },
+            {
+                "name": "Smooth Navigation",
+                "description": "Provides easy navigation with clearly structured sections for services, rooms, and booking."
+            }
+        ],
+        "technicalDetails": {
+            "frontend": [
+                "Developed with semantic HTML5 for structure.",
+                "Styled using CSS3 and Bootstrap to ensure a responsive and modern design."
+            ],
+            "backend": [
+                "No backend integration as it is a static project.",
+                "Focus purely on UI/UX elements without dynamic data."
+            ],
+            "database": "Not applicable (Static front-end project).",
+            "tools": [
+                "GitHub for version control.",
+                "VS Code for development and editing."
+            ]
+        },
+        "challengesSolved": [
+            {
+                "problem": "Achieving a balance between visual appeal and performance.",
+                "solution": "Optimized images and used lightweight CSS and JavaScript to ensure fast loading times without compromising design."
+            },
+            {
+                "problem": "Making the layout fully responsive across various devices.",
+                "solution": "Implemented Bootstrap's grid system and custom media queries for device adaptability."
+            }
+        ],
+        "learningOutcomes": [
+            "Improved skills in responsive web design and front-end UI structuring.",
+            "Gained hands-on experience in using Bootstrap and best practices for creating clean, efficient front-end projects."
+        ]
+    },
+    {
+        "id": 1,
+        "category": "App",
+        "liveDemo": null,
+        "title": "Medical System",
+        "techStack": [
+            "C#",
+            ".NET",
+            "SQL Server",
+            "JavaScript",
+            "CSS"
+        ],
+        "purpose": "To efficiently manage medical records, appointments, and patient details, providing a seamless experience for doctors, patients, and administrators.",
+        "github": "https://github.com/SagarP2/medical-system",
+        "description": "A C# .NET application designed to streamline the management of medical records, appointments, and patient information with a responsive user interface.",
+        "index-image": "assets/img/portfolio/medical-system.png",
+        "detailsUrl": "portfolio-details.html?projectId=1",
+        "images": [
+            "assets/img/portfolio/medical-system-1.jpg",
+            "assets/img/portfolio/medical-system-2.jpg",
+            "assets/img/portfolio/medical-system-3.jpg"
+        ],
+        "keyFeatures": [
+            {
+                "name": "Patient Management",
+                "description": "Register, update, and view patient records."
+            },
+            {
+                "name": "Appointment Scheduling",
+                "description": "Book, reschedule, and cancel appointments."
+            },
+            {
+                "name": "Doctor Management",
+                "description": "Assign doctors to patients and manage their schedules."
+            },
+            {
+                "name": "Prescription Handling",
+                "description": "Generate and track prescriptions."
+            },
+            {
+                "name": "Reports & Analytics",
+                "description": "View reports on patient history and medical statistics."
             },
             {
                 "name": "User Authentication",
-                "description": "Secure login system with role-based access control."
+                "description": "Secure login system with role-based access."
             },
             {
-                "name": "Responsive Design",
-                "description": "Accessible on various devices with a responsive and intuitive interface."
+                "name": "Responsive UI",
+                "description": "Intuitive interface built using modern web technologies."
             }
         ],
         "technicalDetails": {
             "frontend": [
-                "Developed using React.js for building dynamic and responsive user interfaces.",
-                "Managed application state with Redux for predictable state management."
+                "Developed responsive UI using HTML, CSS, and JavaScript.",
+                "Implemented dynamic content rendering for medical records and appointments."
             ],
             "backend": [
-                "Built with Node.js and Express.js to handle server-side logic and API routing.",
-                "Implemented RESTful APIs for seamless communication between the frontend and backend."
+                "Built with C# and .NET to handle server-side logic and database interactions.",
+                "Implemented secure authentication and authorization mechanisms."
             ],
-            "database": "Utilized MongoDB to store case data, user information, and collaboration logs.",
-            "tools": [
-                "Used GitHub for version control and project collaboration.",
-                "Managed dependencies with npm."
-            ]
-        },
-        "challengesSolved": [
-            {
-                "problem": "Ensuring real-time collaboration without data conflicts.",
-                "solution": "Implemented WebSocket communication to enable real-time updates and conflict resolution strategies."
-            },
-            {
-                "problem": "Maintaining a comprehensive change history for cases.",
-                "solution": "Developed a change tracking system that logs all modifications with timestamps and user information."
-            }
-        ],
-        "learningOutcomes": [
-            "Enhanced skills in building full-stack applications with React.js, Node.js, and MongoDB.",
-            "Gained experience in implementing real-time features using WebSockets.",
-            "Learned effective strategies for state management using Redux."
-        ]
-    },
-    
-    {
-        "id": 8,
-        "category": "UI-design",
-        "liveDemo": "https://rabbitcodeportfolio.vercel.app/",
-        "title": "RabbitCode Portfolio",
-        "techStack": [
-            "MongoDB",
-            "Express.js",
-            "React.js",
-            "Node.js",
-            "TailwindCSS",
-            "AWS S3"
-        ],
-        "purpose": "To create a professional portfolio that dynamically showcases projects, skills, and work experiences with a modern and responsive design.",
-        "github": "https://github.com/SagarP2/rabbitcode-portfolio",
-        "description": "RabbitCode Portfolio is a MERN stack-based application designed to present a developer's projects, skills, and experiences. It features dynamic project management, an interactive UI, optimized performance, and AWS S3 integration for asset management.",
-        "index-image": "assets/img/portfolio/rabbitcode-portfolio.png",
-        "detailsUrl": "portfolio-details.html?projectId=8",
-        "images": [
-            "assets/img/portfolio/rabbitcode-portfolio-1.jpg",
-            "assets/img/portfolio/rabbitcode-portfolio-2.jpg",
-            "assets/img/portfolio/rabbitcode-portfolio-3.jpg"
-        ],
-        "keyFeatures": [
-            {
-                "name": "Dynamic Project Showcase",
-                "description": "Add, update, and manage projects seamlessly."
-            },
-            {
-                "name": "Interactive UI",
-                "description": "Built with React.js and TailwindCSS for a modern, responsive design."
-            },
-            {
-                "name": "Backend with Node.js & Express.js",
-                "description": "Handles API requests efficiently."
-            },
-            {
-                "name": "MongoDB Database",
-                "description": "Stores project and portfolio details securely."
-            },
-            {
-                "name": "Optimized Performance",
-                "description": "Ensures fast loading and smooth navigation."
-            },
-            {
-                "name": "AWS S3 Integration",
-                "description": "Supports hosting and asset management."
-            }
-        ],
-        "technicalDetails": {
-            "frontend": [
-                "Developed using React.js for dynamic and responsive user interfaces.",
-                "Styled with TailwindCSS for a modern design."
-            ],
-            "backend": [
-                "Built with Node.js and Express.js to handle server-side logic and API routing.",
-                "Implemented RESTful APIs for seamless communication between the frontend and backend."
-            ],
-            "database": "Utilized MongoDB to store project details, skills, and experience information.",
-            "cloudServices": [
-                "Integrated AWS S3 for hosting and managing assets."
-            ],
+            "database": "Utilized SQL Server to store patient data, appointment details, and medical records.",
             "tools": [
                 "Used GitHub for version control.",
-                "Managed dependencies with npm."
+                "Managed dependencies with NuGet."
             ]
         },
         "challengesSolved": [
             {
-                "problem": "Ensuring dynamic content management for projects.",
-                "solution": "Implemented a backend system that allows easy addition and updating of project details stored in MongoDB."
+                "problem": "Ensuring data security and patient confidentiality.",
+                "solution": "Implemented robust authentication protocols and data encryption techniques."
             },
             {
-                "problem": "Achieving a responsive and modern design.",
-                "solution": "Utilized React.js and TailwindCSS to create an interactive and adaptable user interface."
+                "problem": "Managing concurrent appointment scheduling and avoiding conflicts.",
+                "solution": "Developed logic to check availability and prevent double-booking."
             }
         ],
         "learningOutcomes": [
-            "Enhanced skills in building full-stack applications with the MERN stack.",
-            "Gained experience in integrating cloud services like AWS S3 for asset management.",
-            "Learned effective strategies for creating dynamic and responsive user interfaces."
+            "Enhanced skills in C# and .NET for web application development.",
+            "Gained experience in implementing secure authentication systems and managing sensitive data."
         ]
     }
-        
-    
-        
 ]
