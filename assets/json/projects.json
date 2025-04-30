@@ -537,7 +537,7 @@
     {
         "id": 8,
         "category": "UI-design",
-        "liveDemo": null,
+        "liveDemo": "https://rabbitcodeportfolio.vercel.app/",
         "title": "RabbitCode Portfolio",
         "techStack": [
             "MongoDB",
