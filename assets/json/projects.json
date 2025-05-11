@@ -160,7 +160,7 @@
     {
         "id": 6,
         "category": "UI-design",
-        "liveDemo": null,
+        "liveDemo": "https://edit-pdf-tools.vercel.app/",
         "title": "PDF Edit Tool",
         "techStack": [
             "React.js",
