@@ -1,4 +1,93 @@
-[
+[ {
+        "id": 9,
+        "category": "UI-design",
+        "liveDemo": "https://techvedaportfolio.vercel.app/",
+        "title": "TechVeda Portfolio",
+        "techStack": [
+            "React.js",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "purpose": "To showcase the developer's skills, projects, and experience in a professional portfolio format.",
+        "github": "https://github.com/SagarP2/Techveda-Portfolio",
+        "description": "A modern and responsive developer portfolio built using React.js and Tailwind CSS, featuring smooth animations and a dynamic admin panel.",
+        "index-image": "assets/img/portfolio/techveda-index.png",
+        "detailsUrl": "portfolio-details.html?projectId=9",
+        "images": [
+            "assets/img/portfolio/techveda-1.jpg",
+            "assets/img/portfolio/techveda-2.jpg",
+            "assets/img/portfolio/techveda-3.jpg",
+            "assets/img/portfolio/techveda-4.jpg"
+        ],
+        "keyFeatures": [
+            {
+                "name": "Responsive Design",
+                "description": "Ensures optimal viewing experience across various devices and screen sizes."
+            },
+            {
+                "name": "Dynamic Admin Panel",
+                "description": "Allows for easy management and updating of portfolio content."
+            },
+            {
+                "name": "Project Showcase",
+                "description": "Dedicated sections to highlight individual projects with detailed descriptions and links."
+            },
+            {
+                "name": "Contact Form",
+                "description": "Integrated contact form for potential clients or employers to reach out."
+            },
+            {
+                "name": "Dark Mode",
+                "description": "Toggle between light and dark themes for user preference."
+            },
+            {
+                "name": "SEO Optimization",
+                "description": "Structured data and meta tags to enhance search engine visibility."
+            }
+        ],
+        "technicalDetails": {
+            "frontend": [
+                "Developed using React.js for dynamic and responsive user interfaces.",
+                "Styled with Tailwind CSS for a modern and clean design."
+            ],
+            "backend": [
+                "Built with Node.js and Express.js to handle server-side logic and API routing.",
+                "Implemented RESTful APIs for seamless communication between the frontend and backend."
+            ],
+            "database": [
+                "Utilized MongoDB to store project details, skills, and experience information."
+            ],
+            "tools": [
+                "Hosted on Vercel for seamless deployment and continuous integration.",
+                "Utilized Vercel's global CDN for fast content delivery.",
+                "Used GitHub for version control and collaboration.",
+                "Managed dependencies and scripts with npm.",
+                "Developed and tested the application using Visual Studio Code."
+            ]
+        },
+        "challengesSolved": [
+            {
+                "problem": "Implementing smooth animations without compromising performance.",
+                "solution": "Utilized lightweight animation libraries and optimized rendering techniques to ensure high performance."
+            },
+            {
+                "problem": "Ensuring responsive design across multiple devices.",
+                "solution": "Employed Tailwind CSS utility classes to build a mobile-first responsive layout."
+            },
+            {
+                "problem": "Deploying the portfolio with continuous integration.",
+                "solution": "Integrated GitHub with Vercel for seamless deployment and automatic updates on code changes."
+            }
+        ],
+        "learningOutcomes": [
+            "Enhanced understanding of React.js and component-based architecture.",
+            "Gained experience in implementing responsive designs using Tailwind CSS.",
+            "Improved skills in backend development with Node.js and Express.js.",
+            "Learned best practices for deploying applications using Vercel."
+        ]
+    },
     {
         "id": 8,
         "category": "UI-design",
