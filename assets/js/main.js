@@ -302,8 +302,6 @@ document.addEventListener("DOMContentLoaded", function () {
               : ""
           }
        
-       
- 
         <div class="project-links-wrapper">
           <ul class="project-links">
             ${
